@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    height: 25%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content:right;
+}
+
+header nav a{
+    color: black;
+    border: 0;
+    border-radius: 15px;
+    text-decoration:none;
+    width: 100%;
+    
+}
+header nav a:hover{
+    background-color:rgb(214, 213, 213);
+}
+#menu{
+    justify-content:space-around;
+    width: 15vw;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    background-color:  rgb(214, 213, 213);
+    border: 0;
+    border-radius: 15px;
+    width: 95%;
+}
+#subMenu{
+    justify-content:space-around;
+    width: 15vw;
+}
+header div{
+    justify-content: center;
+    width: 70vw;
+}
+
+
+/*Inicia el main (seccion de fotos)*/
+main{
+    display: grid;
+    height: 75%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-top: 15px;
+}
+img{
+    border: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+#anime1{
+    grid-area: 1 / 1 / 5 / 2;
+    height: 4fr;
+}
+#circo1{
+    grid-area: 1 / 2 / 3 / 3;
+}
+#tecnologia1{
+    grid-area: 1 / 4 / 2 / 5;
+}
+#viajes1{
+    grid-area: 1 / 3 / 4 / 4;
+}
+#viajes2{
+    grid-area: 1 / 5 / 4 / 6;
+}
+#anime2{
+    grid-area: 1 / 6 / 5 / 7;
+    height: 4fr;
+}
