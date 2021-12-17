@@ -1,11 +1,15 @@
 header{
     display: flex;
-    height: 25%;
+    height: 5%;
     justify-content: space-evenly;
+    padding: 15px;
+    position: fixed;
     width: 100%;
 }
+
 header nav{
     display: flex;
+    height: 100%;
     justify-content:right;
 }
 
@@ -13,7 +17,9 @@ header nav a{
     color: black;
     border: 0;
     border-radius: 15px;
+    text-align: center;
     text-decoration:none;
+    font-weight: bold;
     width: 100%;
     
 }
@@ -43,6 +49,15 @@ header div{
     justify-content: center;
     width: 70vw;
 }
+#botonInicio{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#logo{
+    color: red;
+    font-weight: bold;
+}
 
 
 /*Inicia el main (seccion de fotos)*/
@@ -53,7 +68,7 @@ main{
     grid-template-rows: repeat(40, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    padding-top: 15px;
+    padding-top: 55px;
 }
 img{
     border: 0;
@@ -82,4 +97,28 @@ img{
 #anime2{
     grid-area: 1 / 6 / 5 / 7;
     height: 4fr;
+}
+#viaje3{
+    grid-area: 5 / 1 / 8 / 2;
+}
+#anime3{
+    grid-area: 3 / 2 / 7 / 3;
+}
+#circo2{
+    grid-area: 4 / 3 / 6 / 4;
+}
+#anime4{
+    grid-area: 2 / 4 / 6 / 5;
+}
+#circo3{
+    grid-area: 4 / 5 / 6 / 6;
+}
+#viaje4{
+    grid-area: 5 / 6 / 8 / 7;
+}
+#tecnologia2{
+    grid-area: 8 / 1 / 9 / 2;
+}
+#circo4{
+    grid-area: 7 / 2 / 9 / 3;
 }
